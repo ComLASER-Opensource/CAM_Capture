@@ -1,0 +1,62 @@
+QPushButton {
+    color: black;
+    background-color: white;
+    border-width: 2px;
+    border-color: blue;
+    border-style: solid;
+    padding: 0px;
+}
+
+QPushButton:pressed {
+    border-color: red;
+    border-width: 2px;
+    padding: 0px;
+}
+
+QPushButton:disabled {
+    color:#7f7f7f;
+    border:2px solid #7030a0;
+    padding: 0px;
+}
+
+QLabel {
+    background-color: transparent;
+    border: none;
+    color : black;
+}
+
+QLabel:disabled {
+    color:#7f7f7f;
+    border:0px solid #7030a0;
+}
+
+QComboBox {
+    background-color: white;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    color : black;
+}
+
+QComboBox:disabled {
+    background-color: #C0C0C0;
+    color:#7f7f7f;
+    border:2px solid #7030a0;
+}
+
+QLineEdit {
+    background-color: white;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    color : black;
+}
+
+QLineEdit:disabled {
+    background-color: #C0C0C0;
+    color:black;
+    border:2px solid #7030a0;
+}
+
+/*QTableWidget::item{ selection-background-color: #f0f0f0; color : black;}
+QTableWidget::item:selected{ selection-background-color: transparent; text-color: red; }*/

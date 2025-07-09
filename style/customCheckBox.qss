@@ -1,0 +1,9 @@
+QCheckBox::indicator:checked
+{
+  image: url(/userdata/CAM_Capture/images/Date_time/checked.bmp);
+}
+
+QCheckBox::indicator:unchecked
+{
+  image: url(/userdata/CAM_Capture/images/Date_time/unchecked.bmp);
+}

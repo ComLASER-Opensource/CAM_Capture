@@ -1,0 +1,41 @@
+QComboBox
+{
+    combobox-popup: 0;
+    border-width: 2px;
+    border-style: solid;
+}
+
+QComboBox::drop-down
+{
+    width : 35px;
+    border: none; /* This seems to replace the whole arrow of the combo box */
+}
+QComboBox::down-arrow {
+    image: url(/userdata/CAM_Capture/images/Main_menu/combobox_drop_down_arrow.bmp);
+    width: 30px;
+    height: 30px;
+}
+
+QScrollBar:vertical {
+ border: 2px solid black;
+ width: 50px;
+ margin : 52px 0 52px 0;
+ background : white;
+}
+QScrollBar::handle:vertical{
+ min-height: 20px;
+}
+QScrollBar::add-line:vertical {
+ border: 2px solid black;
+ height: 50px;
+ subcontrol-position: bottom;
+ subcontrol-origin: margin;
+ image: url(/userdata/CAM_Capture/images/Main_menu/combobox_drop_down_arrow.bmp);
+}
+QScrollBar::sub-line:vertical {
+ border: 2px solid black;
+ height: 50px;
+ subcontrol-position: top;
+ subcontrol-origin: margin;
+ image: url(/userdata/CAM_Capture/images/Main_menu/combobox_drop_up_arrow.jpg);
+}

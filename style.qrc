@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/">
+        <file>style/default.qss</file>
+        <file>style/indicatorWidget.qss</file>
+        <file>style/selftestWidget.qss</file>
+        <file>style/customPushButton.qss</file>
+        <file>style/customImageButton.qss</file>
+        <file>style/mainmenuWidget.qss</file>
+        <file>style/homeButton.qss</file>
+        <file>keyboard/en.json</file>
+        <file>keyboard/keypad.json</file>
+        <file>style/customCheckBox.qss</file>
+        <file>style/customComboBox.qss</file>
+        <file>keyboard/icons/backspace.png</file>
+        <file>keyboard/icons/caps.png</file>
+        <file>keyboard/icons/enter.png</file>
+        <file>keyboard/icons/lows.png</file>
+        <file>keyboard/ar.json</file>
+        <file>keyboard/es.json</file>
+        <file>keyboard/fr.json</file>
+        <file>keyboard/ko.json</file>
+        <file>keyboard/pt.json</file>
+        <file>keyboard/icons/translate.png</file>
+    </qresource>
+</RCC>

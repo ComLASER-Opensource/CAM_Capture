@@ -1,0 +1,16 @@
+{
+    "ip": "",
+    "mac address": "",
+    "printer items": [
+        "IDS_THERMAL",
+        "IDS_A4"
+    ],
+    "printer selection": 2,
+    "sta ftp id & p/w": "",
+    "sta ssid": [""],
+    "sta ssid selection" : 1,
+    "subnet mask": "",
+    "wiFi SSID": "",
+    "wifi_mode": "",
+    "wifi_gateway": ""
+}

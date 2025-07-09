@@ -1,0 +1,21 @@
+.QDialog {
+   background-color: rgba(255, 255, 255, 128);
+}
+
+QPushButton {
+    color: white;
+    bacground-color: black;
+    border-width: 2px;
+    border-color: blue;
+    border-style: solid;
+}
+
+QPushButton:pressed {
+    color: red;
+    border-width: 2px;
+}
+
+QLabel {
+    color: white;
+}
+

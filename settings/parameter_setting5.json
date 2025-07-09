@@ -1,0 +1,12 @@
+{
+	"ethernet_mode select": 2,
+	"ethernet_mode items": [
+		"IDS_MANUAL",
+		"IDS_DHCP"
+	],
+	"mac address": "",
+	"ip": "",
+	"subnet mask": "",
+	"gateway": "",
+	"dns server": ""
+}

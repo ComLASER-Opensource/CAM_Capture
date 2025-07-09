@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FileManagerWidget</class>
+ <widget class="QWidget" name="FileManagerWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1600</width>
+    <height>835</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="1">
+    <layout class="QHBoxLayout" name="horizontalLayout" stretch="9,12">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2" stretch="290,52,58">
+       <property name="spacing">
+        <number>6</number>
+       </property>
+       <item>
+        <layout class="QGridLayout" name="gridLayout_2" rowstretch="1,4" columnstretch="105,1,56,174">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <item row="0" column="2">
+          <widget class="CustomLabel" name="dateImageLabel">
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0" colspan="4">
+          <widget class="QTableWidget" name="tableWidget">
+           <property name="autoFillBackground">
+            <bool>false</bool>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QTableView{
+	background-color : #f0f0f0;
+	border : 1px solid black;
+}</string>
+           </property>
+           <property name="verticalScrollBarPolicy">
+            <enum>Qt::ScrollBarAlwaysOff</enum>
+           </property>
+           <property name="horizontalScrollBarPolicy">
+            <enum>Qt::ScrollBarAlwaysOff</enum>
+           </property>
+           <property name="rowCount">
+            <number>5</number>
+           </property>
+           <property name="columnCount">
+            <number>2</number>
+           </property>
+           <attribute name="horizontalHeaderVisible">
+            <bool>false</bool>
+           </attribute>
+           <attribute name="horizontalHeaderStretchLastSection">
+            <bool>false</bool>
+           </attribute>
+           <attribute name="verticalHeaderVisible">
+            <bool>false</bool>
+           </attribute>
+           <row/>
+           <row/>
+           <row/>
+           <row/>
+           <row/>
+           <column/>
+           <column/>
+          </widget>
+         </item>
+         <item row="0" column="3">
+          <widget class="CustomPushButton" name="datePushButton">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="CustomComboBox" name="ImageVideoComboBox">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_7" stretch="1,1,1,1">
+         <item>
+          <widget class="CustomPushButton" name="firstPushButton">
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    color: black;
+    background-color: white;
+    border-width: 1px;
+    border-color: blue;
+    border-style: solid;
+    padding: 0px;
+}
+
+QPushButton:pressed {
+    border-color: red;
+    border-width: 1px;
+    padding: 0px;
+}
+
+QPushButton:disabled {
+    color:#7f7f7f;
+    border:1px solid #7030a0;
+    padding: 0px;
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="CustomPushButton" name="previousPushButton">
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    color: black;
+    background-color: white;
+    border-width: 1px;
+    border-color: blue;
+    border-style: solid;
+    padding: 0px;
+}
+
+QPushButton:pressed {
+    border-color: red;
+    border-width: 1px;
+    padding: 0px;
+}
+
+QPushButton:disabled {
+    color:#7f7f7f;
+    border:1px solid #7030a0;
+    padding: 0px;
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="CustomPushButton" name="nextPushButton">
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    color: black;
+    background-color: white;
+    border-width: 1px;
+    border-color: blue;
+    border-style: solid;
+    padding: 0px;
+}
+
+QPushButton:pressed {
+    border-color: red;
+    border-width: 1px;
+    padding: 0px;
+}
+
+QPushButton:disabled {
+    color:#7f7f7f;
+    border:1px solid #7030a0;
+    padding: 0px;
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="CustomPushButton" name="lastPushButton">
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    color: black;
+    background-color: white;
+    border-width: 1px;
+    border-color: blue;
+    border-style: solid;
+    padding: 0px;
+}
+
+QPushButton:pressed {
+    border-color: red;
+    border-width: 1px;
+    padding: 0px;
+}
+
+QPushButton:disabled {
+    color:#7f7f7f;
+    border:1px solid #7030a0;
+    padding: 0px;
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_5" stretch="1,1,1">
+         <item>
+          <widget class="CustomPushButton" name="percentPushButton">
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    color: black;
+    background-color: white;
+    border-width: 1px;
+    border-color: blue;
+    border-style: solid;
+    padding: 0px;
+}
+
+QPushButton:pressed {
+    border-color: red;
+    border-width: 1px;
+    padding: 0px;
+}
+
+QPushButton:disabled {
+    color:#7f7f7f;
+    border:1px solid #7030a0;
+    padding: 0px;
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="CustomPushButton" name="connectPushButton">
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    color: black;
+    background-color: white;
+    border-width: 1px;
+    border-color: blue;
+    border-style: solid;
+    padding: 0px;
+}
+
+QPushButton:pressed {
+    border-color: red;
+    border-width: 1px;
+    padding: 0px;
+}
+
+QPushButton:disabled {
+    color:#7f7f7f;
+    border:1px solid #7030a0;
+    padding: 0px;
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="CustomPushButton" name="printPushButton">
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    color: black;
+    background-color: white;
+    border-width: 1px;
+    border-color: blue;
+    border-style: solid;
+    padding: 0px;
+}
+
+QPushButton:pressed {
+    border-color: red;
+    border-width: 1px;
+    padding: 0px;
+}
+
+QPushButton:disabled {
+    color:#7f7f7f;
+    border:1px solid #7030a0;
+    padding: 0px;
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout" stretch="350,85">
+       <item>
+        <widget class="CustomZoomLabel" name="frameLabel">
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_9" stretch="1,1,1,1,1,1">
+         <item>
+          <widget class="CustomPushButton" name="mainMenuPushButton">
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    color: black;
+    background-color: white;
+    border-width: 1px;
+    border-color: blue;
+    border-style: solid;
+    padding: 0px;
+}
+
+QPushButton:pressed {
+    border-color: red;
+    border-width: 1px;
+    padding: 0px;
+}
+
+QPushButton:disabled {
+    color:#7f7f7f;
+    border:1px solid #7030a0;
+    padding: 0px;
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="CustomPushButton" name="searchPushButton">
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    color: black;
+    background-color: white;
+    border-width: 1px;
+    border-color: blue;
+    border-style: solid;
+    padding: 0px;
+}
+
+QPushButton:pressed {
+    border-color: red;
+    border-width: 1px;
+    padding: 0px;
+}
+
+QPushButton:disabled {
+    color:#7f7f7f;
+    border:1px solid #7030a0;
+    padding: 0px;
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="CustomPushButton" name="zoomPlayPushButton">
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    color: black;
+    background-color: white;
+    border-width: 1px;
+    border-color: blue;
+    border-style: solid;
+    padding: 0px;
+}
+
+QPushButton:pressed {
+    border-color: red;
+    border-width: 1px;
+    padding: 0px;
+}
+
+QPushButton:disabled {
+    color:#7f7f7f;
+    border:1px solid #7030a0;
+    padding: 0px;
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="CustomPushButton" name="deletePushButton">
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    color: black;
+    background-color: white;
+    border-width: 1px;
+    border-color: blue;
+    border-style: solid;
+    padding: 0px;
+}
+
+QPushButton:pressed {
+    border-color: red;
+    border-width: 1px;
+    padding: 0px;
+}
+
+QPushButton:disabled {
+    color:#7f7f7f;
+    border:1px solid #7030a0;
+    padding: 0px;
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="CustomPushButton" name="sharePushButton">
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    color: black;
+    background-color: white;
+    border-width: 1px;
+    border-color: blue;
+    border-style: solid;
+    padding: 0px;
+}
+
+QPushButton:pressed {
+    border-color: red;
+    border-width: 1px;
+    padding: 0px;
+}
+
+QPushButton:disabled {
+    color:#7f7f7f;
+    border:1px solid #7030a0;
+    padding: 0px;
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="CustomPushButton" name="movePushButton">
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    color: black;
+    background-color: white;
+    border-width: 1px;
+    border-color: blue;
+    border-style: solid;
+    padding: 0px;
+}
+
+QPushButton:pressed {
+    border-color: red;
+    border-width: 1px;
+    padding: 0px;
+}
+
+QPushButton:disabled {
+    color:#7f7f7f;
+    border:1px solid #7030a0;
+    padding: 0px;
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>CustomLabel</class>
+   <extends>QLabel</extends>
+   <header>CustomLabel.h</header>
+  </customwidget>
+  <customwidget>
+   <class>CustomPushButton</class>
+   <extends>QPushButton</extends>
+   <header>CustomPushButton.h</header>
+  </customwidget>
+  <customwidget>
+   <class>CustomComboBox</class>
+   <extends>QComboBox</extends>
+   <header>CustomComboBox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>CustomZoomLabel</class>
+   <extends>QLabel</extends>
+   <header>CustomZoomLabel.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
