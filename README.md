@@ -26,8 +26,6 @@ make
 ![image](https://github.com/user-attachments/assets/6acff3e3-13e3-41ea-8097-5405843a0b9e)
 
 
-## 🔥 System Workflow
-![image](https://github.com/user-attachments/assets/d63f0eb8-f1d2-458c-ae82-8dacf9540ac2)
 
 
 ## ❗ License
