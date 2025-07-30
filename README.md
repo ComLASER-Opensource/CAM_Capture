@@ -9,7 +9,7 @@
 ## ✅ Development & Runtime Environment
 | 항목 | 버전 |
 |------------|-----------|
-| OS | Ubuntu 20.04 LTS |
+| OS | window pc |
 | 언어 | C++ |
 | Qt | 5.12 |
 
