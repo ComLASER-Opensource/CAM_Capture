@@ -21,7 +21,6 @@ make
 ```
 
 ## ⭐ UI Design + Class flow
-![image](https://github.com/user-attachments/assets/bae5b608-1d16-4ddf-9d93-6b5f7cb5c0f0)
 --
 ![image](https://github.com/user-attachments/assets/6acff3e3-13e3-41ea-8097-5405843a0b9e)
 
