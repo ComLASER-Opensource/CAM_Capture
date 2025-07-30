@@ -28,8 +28,7 @@ make
 
 ## 🔥 System Workflow
 ![image](https://github.com/user-attachments/assets/d63f0eb8-f1d2-458c-ae82-8dacf9540ac2)
-![image](https://github.com/user-attachments/assets/6fe0c70f-8e24-4aaa-8681-5df331575c81)
-![image](https://github.com/user-attachments/assets/028c6b57-3488-49fb-ad7a-efa2f7f30c4c)
+
 
 ## ❗ License
 - 본 프로젝트는 GPL-3.0 라이선스를 따릅니다. 자세한 내용은 [LICENSE](https://github.com/ComLASER-Opensource/CAM_Capture/blob/main/LICENSE) 파일을 참고하세요.
